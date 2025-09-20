@@ -1,0 +1,31 @@
+using UnityEngine;
+
+public enum GAMEMODE
+{
+    NORMALRACE,
+    CHECKPOINTRACE
+}
+
+public enum COLLISIONTYPE
+{
+    MOTORCYCLE,
+    TRACKBARRIER,
+    ROADBLOCK,
+    COLLECTION,
+    RAZER,
+    WIDEDANGERSCORE,
+    MIDDLEDANGERSCORE,
+    CLOSEDANGERSCORE
+}
+
+public enum MOTORCYCLESTATE
+{
+    IDLE,
+    ACCELERATE,
+    DECELERATE,
+    TURNING,
+    BRAKE,
+    TREMBLE,
+    FLIP,
+    SLIDING
+}
